@@ -1,6 +1,7 @@
 import "./App.css";
 import { BrowserRouter, Route, Switch } from "react-router-dom";
 import Login from "./components/Login/Login.js";
+import Main from "./components/Main/Main.js";
 import "antd/dist/antd.css";
 
 function App() {
@@ -10,6 +11,9 @@ function App() {
         <Switch>
           <Route path="/login">
             <Login />
+          </Route>
+          <Route path="/main">
+            <Main />
           </Route>
         </Switch>
       </BrowserRouter>

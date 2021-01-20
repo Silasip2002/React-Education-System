@@ -1,0 +1,20 @@
+.courses__filter {
+  background-color: #f8f8f8;
+  padding: 20px;
+}
+
+.coursesList {
+  display: flex;
+  border-top: beige 2px solid;
+  border-bottom: beige 2px solid;
+}
+
+.courseList__content {
+  padding: 10px;
+}
+
+.coursesList__img {
+  width: 20vh;
+  height: auto;
+  padding: 10px;
+}
